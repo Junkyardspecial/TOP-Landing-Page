@@ -170,6 +170,7 @@ main {
 }
 
 .h2 {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -178,6 +179,7 @@ main {
     flex-direction: row;
     justify-content: center;
     gap: 25px;
+    height: 220px;
 }
 
 .div1, .div2, .div3, .div4 {
@@ -198,18 +200,20 @@ main {
   display: flex;
   justify-content: flex-end;
   margin-right: 300px;
-  
-}
-
-.btm-sec {
-    display: flex;
-    justify-content: center;
 }
 
 /* the end */
 
+.btm-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
 .btm-div {
     display: flex;
+    
 }
 
 .btm-div-left {
