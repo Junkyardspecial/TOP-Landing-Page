@@ -1,0 +1,241 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html {
+    font-family: roboto, calibri;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+header {
+    background-color: #1f2937;
+  }
+
+li {
+    list-style-type: none;
+  }
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+  }
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font: bold;
+  }
+
+  .img-sec {
+    width: 500px;
+    height: 250px;
+    border: solid black 3px;
+  }
+.top-p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+  .top-btn {
+    width: 100px;
+    height: 30px;
+  }
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+
+h2 {
+    font-size: 36px;
+    font: bold;
+    color: #1F2937;
+  }
+
+  .img {
+    border: #3882F6 solid 3px;
+    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+  }
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+  }
+   
+.top-btn, .btm-btn {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: #f9faf8;
+    border: solid 0px;
+  }
+
+.btm-btn {
+    border: white solid 2px;
+    width: 100px;
+    height: 30px;
+}
+
+  .btm-div {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    border-radius: 6px;
+    width: 800px;
+    height: 100px
+}
+  
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    height: 80px;
+}
+
+ 
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/* top */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: -10px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 60px 0;
+}
+.links {
+  display: flex;
+  padding-right: 175px;
+  gap: 50px;
+}
+
+li {
+  align-content: center;
+}
+
+/* right below the top */
+
+.top-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sec {
+    width: 45%;
+}
+
+.img-sec {
+    margin-left: 30px;
+}
+
+/* the middle */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.center-divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.div1, .div2, .div3, .div4 {
+  text-align: center;
+  width: 175px;
+ }
+
+ /* right below the middle */
+
+.quote p {
+    text-align: center;
+  }
+
+.span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 300px;
+  
+}
+
+.btm-sec {
+    display: flex;
+    justify-content: center;
+}
+
+/* the end */
+
+.btm-div {
+    display: flex;
+}
+
+.btm-div-left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.btm-div-left h3 {
+  margin-top: 30px;
+}
+
+.btm-div-left p {
+  margin-top: -20px;
+}
+
+.btm-btn {
+  align-self: center;
+  margin-left: 55px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
